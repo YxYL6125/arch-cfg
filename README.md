@@ -6,3 +6,5 @@
 - :battery:i3
 - :chocolate_bar:polybar
 - :cookie:pimoc
+- :computer: zim
+- :page_facing_up: profile

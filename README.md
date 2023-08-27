@@ -8,3 +8,4 @@
 - :cookie:pimoc
 - :computer: zim
 - :page_facing_up: profile
+- :pound:screenlayout

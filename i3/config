@@ -293,7 +293,7 @@ bindsym $mod+p exec /usr/local/bin/switch-audio-port
 ## App shortcuts
 bindsym $mod+w exec /usr/bin/google-chrome-stable
 bindsym $mod+n exec /usr/bin/Thunar
-bindsym $mod+i exec idea
+bindsym $mod+i exec /home/yxyl/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/bin/idea.sh
 
 
 bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
@@ -406,7 +406,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
 # exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
-exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/wallpapers/Next/contents/images_dark/5120x2880.png
+exec --no-startup-id sleep 1 && feh --bg-fill /home/yxyl/.screenlayout/wallpaper.jpg
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
@@ -628,6 +628,6 @@ exec --no-startup-id .screenlayout/RedMi.sh
 #exec --no-startup-id .config/polybar/launch.sh --forest
 
 #mouse
-exec --no-startup-id xinput --set-prop 12 'libinput Accel Speed' -0.9
+exec --no-startup-id xinput --set-prop 9 'libinput Accel Speed' -0.9
 
 

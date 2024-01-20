@@ -1,0 +1,13 @@
+#输入法
+sudo pacman -S fcitx5-im fcitx5-chinese-addons wqy-zenhei ntfs-3g
+
+sudo nano /etc/environment
+
+GTK_IM_MODULE=fcitx5
+QT_IM_MODULE=fcitx5
+XMODIFIERS=@im=fcitx5
+SDL_IM_MODULE=fcitx5
+GLFW_IM_MODULE=ibus
+
+#pacman应用
+yay -S google-chrome feishu-bin obsidian-bin linuxqq libreoffice-fresh flameshot-git bleachbit-git qdirstat-bin windterm-bin
